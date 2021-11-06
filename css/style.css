@@ -48,6 +48,8 @@ p{
     min-height: 450px;
     color: #FFFFFF;
     text-align: center;
+    
+    
 
 }
 
@@ -68,9 +70,11 @@ p{
 #section-a h1{
     padding: 60px;
     font-size: 32px;
+    font-weight: bold;
 }
 #section-a p{
     font-size: 24px;
+    font-weight: bold;
 }
 
 #section-b{
@@ -105,6 +109,7 @@ p{
 #Esection-a h1{
     padding: 60px;
     font-size: 32px;
+    font-weight: bold;
 }
 
 .espresso-cards{
@@ -144,6 +149,7 @@ p{
     min-height: 450px;
     color: #FFFFFF;
     text-align: center;
+    font-weight: bold;
 
 }
 #Csection-a .about-image{
@@ -162,6 +168,8 @@ p{
 #Csection-a h1{
     padding: 60px;
     font-size: 32px;
+    font-weight: bold;
+
 
 
     /*Tea Page*/
@@ -170,6 +178,8 @@ p{
     min-height: 450px;
     color: #FFFFFF;
     text-align: center;
+    font-weight: bold;
+
 
 }
 #Tsection-a .about-image{
@@ -188,4 +198,5 @@ p{
 #Tsection-a h1{
     padding: 60px;
     font-size: 32px;
+    font-weight: bold;
 }
