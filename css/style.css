@@ -1,0 +1,191 @@
+
+
+header{
+    background-color: #313639;
+    padding: 15px;
+    box-shadow: 0 0 10px black;
+}
+header li{
+    display: inline;
+    padding-left:24px;
+
+}
+
+header li a{
+    color:blanchedalmond;
+    text-decoration: none;
+    padding: 13px;
+    transition: .4s ease;
+}
+
+header li a:hover{
+    color: brown;
+    text-decoration: underline;
+}
+.active{
+    color:brown
+}
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #FFFFFF;
+    line-height: 1.5;
+    text-align: center;
+}
+
+h1, h2,h3{
+    margin: 0;
+    padding: 20px
+}
+
+p{
+    margin:0;
+    padding:20px;
+}
+/*HOme page*/
+#section-a{
+    min-height: 450px;
+    color: #F2F2F2;
+    text-align: center;
+
+}
+
+#section-a .about-image{
+    position: absolute;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    background: #333 url(https://images.unsplash.com/photo-1551462577-9aaf3ff5d927?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1476&q=80);
+    z-index: -1;
+    
+    
+
+}
+#section-a h1{
+    padding: 60px;
+    font-size: 32px;
+}
+#section-a p{
+    font-size: 24px;
+}
+
+#section-b{
+    background: #C0C0C0; /*EASTER EGG- get it?... coco*/
+    color: #333;
+    padding-bottom: 20px;
+    margin: 20px;
+}
+
+
+
+/* Espresso Page*/
+#Esection-a{
+    min-height: 450px;
+    color: #F2F2F2;
+    text-align: center;
+
+}
+#Esection-a .about-image{
+    position: absolute;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    background: #333 url(https://images.unsplash.com/photo-1497935586351-b67a49e012bf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1771&q=80);
+    z-index: -1;
+    
+
+}
+#Esection-a h1{
+    padding: 60px;
+    font-size: 32px;
+}
+
+.espresso-cards{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(245px, 1fr));
+    grid-auto-rows: auto;
+    gap: 20px;
+    font-family: sans-serif;
+    padding-top: 30px;
+
+}
+.espresso-cards * {
+    box-sizing: border-box;
+}
+
+.espresso-card{
+    box-shadow: 0 0 3px black;
+    margin: 20px 20px 20px 20px;
+
+}
+
+.card_image{
+    width: 100%;
+    display: block;
+}
+
+.card-content{
+    line-height: 1.5;
+    font-size:16px;
+    padding: 15px;
+    background: #fafafa;
+}
+
+/* Coffee Page*/
+#Csection-a{
+    min-height: 450px;
+    color: #F2F2F2;
+    text-align: center;
+
+}
+#Csection-a .about-image{
+    position: absolute;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    background: #333 url(https://images.unsplash.com/photo-1536227661368-deef57acf708?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80);
+    z-index: -1;
+    
+
+}
+#Csection-a h1{
+    padding: 60px;
+    font-size: 32px;
+
+
+    /*Tea Page*/
+}
+#Tsection-a{
+    min-height: 450px;
+    color: #F2F2F2;
+    text-align: center;
+
+}
+#Tsection-a .about-image{
+    position: absolute;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    background: #333 url(https://images.unsplash.com/photo-1508014861016-f37cdf89e94d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1254&q=80);
+    z-index: -1;
+    
+
+}
+#Tsection-a h1{
+    padding: 60px;
+    font-size: 32px;
+}
